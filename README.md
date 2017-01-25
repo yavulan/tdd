@@ -71,12 +71,11 @@ Discovering test-driven development with JavaScript.
 
 ### FAQ
 
-Q: I've found something in a code to change besides current iteration. What do I have to do?
-A: Write your idea in a some todo list. Finish current iteration. Only after that return to your idea.
+**Q:** I've found something in a code to change besides current iteration. What do I have to do?
+**A:** Write your idea in a some todo list. Finish current iteration. Only after that return to your idea.
 
-Q: I couldn't finish refactoring without adding more code (e.g., split one method in two). Do I have to add required code?
-A: Put refactoring off until running all iterations for required functionality and then refactor.
-
+**Q:** I couldn't finish refactoring without interface changes or expanding (e.g., split one method in two). Do I have to add required code?
+**A:** Put refactoring off until running all iterations for required functionality and then refactor.
 
 ### Testing frameworks (JavaScript)
 
