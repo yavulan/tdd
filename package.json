@@ -1,0 +1,30 @@
+{
+  "name": "tdd-learning",
+  "version": "1.0.0",
+  "description": "Discovering test-driven development - is a design tool.",
+  "main": "index.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "tests/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yavulan/tdd.git"
+  },
+  "author": "yavulan",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/yavulan/tdd/issues"
+  },
+  "homepage": "https://github.com/yavulan/tdd#readme",
+  "devDependencies": {
+    "jasmine": "^2.5.3",
+    "jasmine-core": "^2.5.2",
+    "karma": "^1.4.0",
+    "karma-chrome-launcher": "^2.0.0",
+    "karma-firefox-launcher": "^1.0.0",
+    "karma-jasmine": "^1.1.0"
+  }
+}
