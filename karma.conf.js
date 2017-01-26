@@ -21,6 +21,7 @@ module.exports = function(config) {
 
     // list of files to exclude
     exclude: [
+        'tests/2-timer.js'
     ],
 
 
