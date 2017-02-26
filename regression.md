@@ -11,10 +11,7 @@ Note: unit tests are automatically regression tests (just another benefit of TDD
   - [BackstopJS](#backstopjs)
     - [Installing](#installing)
     - [backstop.json](#backstopjson)
-      - [id](#id)
-      - [viewports](#viewports)
-      - [scenarios](#scenarios)
-      - [Workflow](#workflow)
+    - [Flags](#flags)
     - [Cross-browser testing](#cross-browser-testing)
     - [.gitignore](#gitignore)
 
@@ -108,6 +105,19 @@ backstop reference
 # Compare current app state to the source of truth (reference)
 backstop test
 ```
+
+#### Flags
+```Shell
+# Custom config file with relative path
+backstop [reference/test] --configPath=backstopTests/someTest.json
+
+# Incremental scenario reference/testing
+backstop [reference/test] --i
+
+# Run only for specific scenarios
+## --filter argument takes a regEx string
+backstop [reference/test] --i --filter=<scenario.label>
+````
 
 #### Cross-browser testing
 By now is achieved with `engine` selection in `backstop.json`:
